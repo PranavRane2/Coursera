@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> 
+			HTML Resource Sheet
+		<link rel="stylesheet" type="text/css" href="style.css">
+		</title>
+	</head>
+	
+	<body>
+	<!-- This is where all the web page content goes. -->
+			<h1 id="Top" class="top" style="font-size: 30">My Resource Sheet </h1>
+			<p>This page consists of examples of <strong>HTML elements.</strong> 
+				Elements often have opening and closing tags, with 
+				data in between. 
+			</p>
+
+			<p>
+			The body tag is where all of the web page content
+			goes. It will contain text and even some additional 
+			tags to make the text look nicer.
+			</p>
+			Links to all the sections of the page:
+			<ul class= "menu">
+				<li><a href="#Headings">Headings</a></li>
+				<li><a href="#Lists">Lists</a></li>
+				<li><a href="#Characters"> Character Entity References</a></li>
+				<li><a href="#Links">Creating Links</a></li>
+			</ul>
+
+			<section id="Headings">
+				<h2>Types of headings: (Use the tag: &lt;h_&gt;)</h2>
+					<h1>This is a H1 heading</h1>
+					<h2>This is a H2 heading</h2>
+					<h3>This is a H3 heading</h3>
+					<h4>This is a H4 heading</h4>
+					<h5>This is a H5 heading</h5>
+					<h6>This is a H6 heading</h6></section>
+			<section id="Lists">
+				<h2>Types of Lists:</h2>
+					<h3> Unordered Lists: Tag : &lt;ul&gt;&lt;/ul&gt; </h3>
+					<ul>
+						<li>Eins</li>
+						<li>Zwei</li>
+						<li>Drei</li>
+					</ul>
+					
+					<h3> Ordered Lists: Tag : &lt;ol&gt;&lt;/ol&gt; </h3>
+					<ol>
+						<li>Eins</li>
+						<li>Zwei</li>
+						<li>Drei</li>
+					</ol>
+					 
+					<h3> Description Lists: Tag : &lt;dl&gt;dt, dd &lt;/dl&gt; </h3>
+					<dl>
+					<ul>
+						<li>
+							<dt>Eins</dt>
+								<dd> One in German </dd>
+						</li>
+						<li>
+							<dt>Zwei</dt>
+								<dd> Two in German </dd>
+						</li>
+						<li>
+							<dt>Drei</dt>
+								<dd> Three in German </dd>
+						</li>
+					</ul>
+					</dl></section>
+			<section id="Characters">
+				<h2>Character Entity References</h2>
+				<ul>
+					<li>Ampersand: &amp;amp;</li>
+					<li>Lesser Than: &amp;lt;</li>
+					<li>Greater Than: &amp;gt;</li>
+					<li>Non-Breaking Space: &amp;nbsp;</li> 
+					<li>Copyright: &amp;copy; </li>
+				</ul></section>
+			<section id="Links">
+				<h2>Types of links: </h2>
+				<p>
+					Making hypertext uses the &lt;a&gt; tag. It has many attributes such as: "href", "name", "title", "target". The &lt;a&gt; tag is a inline as well as a block element, so allows the usage of both elements in side of it.
+				</p>
+				<dl>
+					<h4><dt>Internal Links:</dt></h4>
+						<dd>
+							These are links that are stored in the same folder as the current html file. The "href" attribute must be filled in with the .html file. 
+							<div>
+								For example: 
+								<a href="semantics.html" target = "blank" title="This points to a html file inside the same folder.">internal link</a>
+							</div>
+						</dd>
+					<h4><dt>External Links:</dt></h4>
+						<dd>
+							These links point to sites on different servers. The "href" attribute must be filled with the site URL. Setting "target" to "_blank" ensures that the link opens up in a new tab. 
+							<div>
+								For Example:
+								<a href="https://www.google.com" target = "_blank" title="Google">external link</a>
+							</div>
+						</dd>
+					<h4><dt>Fragment Identifier Link:</dt></h4>
+						<dd>
+							These links point to sections in the current page itself. The "href" attribute must be filled with a hashtag followed by the section id or anchor name (eg. "#sectionID"). 
+							<div>
+								For Example:
+								<a href="#Top"><img src="back-to-top1.png" width="20" height="20"></a>
+							</div>
+						</dd>
+				</dl></section>
+
+	</body>
+	<footer style="text-align: right;">
+		&copy;Copyright. lorem
+	</footer>
+</html>
