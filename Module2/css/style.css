@@ -1,12 +1,11 @@
 *{
 	box-sizing: border-box;
-	text-transform: lowercase;
 	color: #4c4c4c;
 	
 }
 body{
 	margin:	auto;
-	background-color: #E8E8E8;
+	/*background-color: #E8E8E8;*/
 	/*background-color: #f5f5f5;*/
 }
 @media (min-width: 992px){
@@ -20,9 +19,9 @@ body{
 		width:	8.33%;
 	}
 	.col-lg-4{
-		width:	30%;
-		margin-right: 1.66%;
-		margin-left: 1.66%; 
+		width:	31.33%;
+		/*margin-right: 1%;
+		margin-left: 1%; */
 
 	}
 	.col-lg-6{
@@ -33,6 +32,18 @@ body{
 	}
 	.row{
 		padding:0;
+	}
+	#D1{
+		margin-right:1.5%;
+		margin-left:1.5%;
+	}
+	#D2{
+		margin-right:1.5%;
+		margin-left:0;
+	}
+	#D3{
+		margin-right:1.5%;
+		margin-left:0;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -55,7 +66,7 @@ body{
 		width: 47.5%;
 		margin-right: 1.25%;
 		margin-left: 1.25%;
-		margin-bottom: 15px;
+		margin-bottom: 2.5%;
 
 	}
 	.col-md-12{
@@ -101,28 +112,27 @@ body{
 	}
 }
 section{
-	position: relative;
 	float: right;
 	font-family: Garamond;
-	font-size: 150%;
+	font-size: 175%;
 	font-weight: bolder;
 	padding: 5px;
 
 	height: 40px;
-	width: 200px;
+	width: 170px;
 
-	border-bottom: 2px black solid;
-	border-left: 2px black solid; 
+	/*border-bottom: 2px black solid;
+	border-left: 2px black solid; */
 	text-align: center;
 
-	background-color: orange;
+	background-color: ;
 
 
 }
 h1{
 	font-family: Garamond;
 	font-weight: bolder;
-	font-size: 300%;
+	font-size: 350%;
 	text-align: center;
 	width: 50%;
 	margin-top: 15px;
@@ -137,12 +147,12 @@ div{
 p{
 	clear: both;
 	font-family: Verdana;
-	font-size: 125%;
+	font-size: 18px;
 	color: #4c4c4c;
 	text-align: left;
 	padding-top: 2%;
 	padding-right: 15px;
-	padding-left: 15px;
+	padding-left: 20px;
 	padding-bottom: 2%;
 	margin-top: 15px;
 }
@@ -155,3 +165,4 @@ p{
 #S3{
 	background-color: #A78D8A;
 }
+
