@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	color: #444444;
+}
+.container-fluid{
+	padding:0 30px 0;
+}
+#header-nav, #header-nav.container-fluid{
+	background-color: #C0D8E3;
+	/*border: 2px black solid;*/
+	margin:0 auto 40px;
+	padding: 0 0 10px;
+	height: 70px;
+
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand{
+	overflow: hidden;
+}
+.navbar-toggle{
+	align-content: middle;
+}
+#title{
+	margin: 0;
+	color: #4c4c4c;
+}
+.nav-list{
+	text-align: center;
+	background-color: #CFDFEF;
+	padding:-20px;
+}
+#nav-item {
+	padding: 0;
+	border: 1px black solid;
+	margin: 1px;
+}
+
+/*Collapsable Menu Styles*/
+#collapsable-nav{
+	font-size: 1.2em;
+}
+#collapsable-nav span{
+	border: 1px black;
+	vertical-align: middle;
+	padding-top: -10px;
+}
+/*End of Collapsable menu styles*/
+
+/*Body Styles*/
+#collapsable-nav{
+	clear: both;
+}
+body{
+	background-color: #E8E8E8;
+}
+
+/*Content Styles*/
+#content{
+
+}
+section.menu-item{
+	font-family: Garamond;
+	margin: 0 auto 0;
+	font-size: 175%;
+	font-weight: bolder;
+	padding: 5px;
+	clear: both;
+	height: 40px;
+	width: 170px;
+	text-align: center;
+
+}
+div.menu-item{
+	margin-bottom: 20px;
+/*	overflow: auto;*/
+}
+.menu-tile{
+	background-color: #C0D8E3;
+	height: 700px;
+	overflow: auto;
+
+}
+p{
+	clear: both;
+	font-family: Verdana;
+	font-size: 18px;
+	color: #4c4c4c;
+	text-align: left;
+	padding-top: 2%;
+	padding-right: 15px;
+	padding-left: 20px;
+	padding-bottom: 2%;
+	margin-top: 10;
+}
+#S1{
+	background-color: #EEB9A1;
+}
+#S2{
+	background-color: #E18A7A;
+}
+#S3{
+	background-color: #A78D8A;
+}
